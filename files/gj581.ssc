@@ -1,0 +1,352 @@
+# For some reason Celestia only accepts Ending for all timeline stages, not Beginning
+
+Modify "b" "Gliese 581"
+{
+	Timeline [
+		# 2005 1-planet model 2005A&A...443L..15B
+		{
+			Beginning "2005 09 08"
+			Ending "2007 04 29"
+			Mass 16.6
+			EllipticalOrbit {
+				Epoch 2451004.30
+				Period<d> 5.366
+				SemiMajorAxis 0.041
+				Eccentricity 0
+			}
+		}
+		# 2007 3-planet model 2007A&A...469L..43U
+		{
+			Ending "2009 06 15"
+			Mass 15.7
+			EllipticalOrbit {
+				Epoch 2452998.76
+				Period<d> 5.3683
+				SemiMajorAxis 0.041
+				Eccentricity 0.02
+				ArgOfPericenter 52.52
+			}
+		}
+		# 2009 4-planet model 2009A&A...507..487M
+		{
+			Ending "2010 09 29"
+			Mass 15.65
+			EllipticalOrbit {
+				Epoch 2454712.62
+				Period<d> 5.36874
+				SemiMajorAxis 0.04
+				Eccentricity 0
+			}
+		}
+		# 2010 6-planet model 2010ApJ...723..954V
+		{
+			Ending "2012 07 18"
+			Mass 15.6
+			EllipticalOrbit {
+				Epoch 2451409.762
+				Period<d> 5.36841
+				SemiMajorAxis 0.0406163
+				Eccentricity 0
+				MeanAnomaly 276.1
+			}
+		}
+		# 2012 5-planet model 2012AN....333..561V
+		{
+			Ending "2014 07 03"
+			Mass 16.00
+			EllipticalOrbit {
+				Epoch 2453152.712
+				Period<d> 5.3694
+				SemiMajorAxis 0.0406161
+				Eccentricity 0
+				MeanAnomaly 338.4
+			}
+		}
+		# 2014 3-planet model 2014Sci...345..440R
+		{
+			Ending "2017 10 04"
+			Mass 15.8
+			EllipticalOrbit {
+				Epoch 2454751.76
+				Period<d> 5.3686
+				SemiMajorAxis 0.04061
+				Eccentricity 0.0
+			}
+		}
+		# 2017 3-planet model 2018A&A...609A.117T
+		{
+			Mass 15.20
+			EllipticalOrbit {
+				Epoch 2451409.762
+				Period<d> 5.368
+				SemiMajorAxis 0.041
+				Eccentricity 0.022
+				ArgOfPericenter 257.82
+				MeanAnomaly 163.4
+			}
+		}
+	]
+}
+
+Modify "c" "Gliese 581"
+{
+	Timeline [
+		# 2007 3-planet model 2007A&A...469L..43U
+		{
+			Beginning "2007 04 29"
+			Ending "2009 06 15"
+			Mass 5.03
+			EllipticalOrbit {
+				Epoch 2452993.38
+				Period<d> 12.932
+				SemiMajorAxis 0.073
+				Eccentricity 0.16
+				ArgOfPericenter 46.52
+			}
+		}
+		# 2009 4-planet model 2009A&A...507..487M
+		{
+			Ending "2010 09 29"
+			Mass 5.36
+			EllipticalOrbit {
+				Epoch 2454699.42
+				Period<d> 12.9292
+				SemiMajorAxis 0.07
+				Eccentricity 0.17
+				ArgOfPericenter 29.52
+			}
+		}
+		# 2010 6-planet model 2010ApJ...723..954V
+		{
+			Ending "2012 07 18"
+			Mass 5.6
+			EllipticalOrbit {
+				Epoch 2451409.762
+				Period<d> 12.9191
+				SemiMajorAxis 0.072993
+				Eccentricity 0
+				MeanAnomaly 33
+			}
+		}
+		# 2012 5-planet model 2012AN....333..561V
+		{
+			Ending "2014 07 03"
+			Mass 5.302
+			EllipticalOrbit {
+				Epoch 2453152.712
+				Period<d> 12.9355
+				SemiMajorAxis 0.072989
+				Eccentricity 0
+				MeanAnomaly 181.0
+			}
+		}
+		# 2014 3-planet model 2014Sci...345..440R
+		{
+			Ending "2017 10 04"
+			Mass 5.5
+			EllipticalOrbit {
+				Epoch 2454759.2
+				Period<d> 12.914
+				SemiMajorAxis 0.0721
+				Eccentricity 0.0
+			}
+		}
+		# 2017 3-planet model 2018A&A...609A.117T
+		{
+			Mass 5.652
+			EllipticalOrbit {
+				Epoch 2451409.762
+				Period<d> 12.919
+				SemiMajorAxis 0.074
+				Eccentricity 0.087
+				ArgOfPericenter 288.22
+				MeanAnomaly 218.0
+			}
+		}
+	]
+}
+
+"Gliese 581 d:(disproven)" "Gliese 581"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	Mass 5.6
+	Radius 14219
+	Timeline [
+		# 2007 3-planet model 2007A&A...469L..43U
+		{
+			Beginning "2007 04 29"
+			Ending "2009 06 15"
+			Mass 7.7
+			EllipticalOrbit {
+				Epoch 2452936.9
+				Period<d> 83.6
+				SemiMajorAxis 0.25
+				Eccentricity 0.20
+				ArgOfPericenter 74.52
+			}
+		}
+		# 2009 4-planet model 2009A&A...507..487M
+		{
+			Ending "2010 09 29"
+			Mass 7.09
+			EllipticalOrbit {
+				Epoch 2454603.0
+				Period<d> 66.80
+				SemiMajorAxis 0.22
+				Eccentricity 0.38
+				ArgOfPericenter 106.52
+			}
+		}
+		# 2010 6-planet model 2010ApJ...723..954V
+		{
+			Ending "2012 07 18"
+			Mass 5.6
+			EllipticalOrbit {
+				Epoch 2451409.762
+				Period<d> 66.87
+				SemiMajorAxis 0.21847
+				Eccentricity 0
+				MeanAnomaly 56
+			}
+		}
+		# 2012 5-planet model 2012AN....333..561V
+		{
+			Ending "2014 07 03"
+			Mass 5.94
+			EllipticalOrbit {
+				Epoch 2453152.712
+				Period<d> 66.671
+				SemiMajorAxis 0.21778
+				Eccentricity 0
+				MeanAnomaly 227.3
+			}
+		}
+		# 2014 refuted 2014Sci...345..440R
+	]
+}
+
+Modify "e" "Gliese 581"
+{
+	Timeline [
+		# 2009 4-planet model 2009A&A...507..487M
+		{
+			Beginning "2009 06 15"
+			Ending "2010 09 29"
+			Mass 1.94
+			EllipticalOrbit {
+				Epoch 2454716.80
+				Period<d> 3.14942
+				SemiMajorAxis 0.03
+				Eccentricity 0
+			}
+		}
+		# 2010 6-planet model 2010ApJ...723..954V
+		{
+			Ending "2012 07 18"
+			Mass 1.7
+			EllipticalOrbit {
+				Epoch 2451409.762
+				Period<d> 3.14867
+				SemiMajorAxis 0.0284533
+				Eccentricity 0
+				MeanAnomaly 267
+			}
+		}
+		# 2012 5-planet model 2012AN....333..561V
+		{
+			Ending "2014 07 03"
+			Mass 1.860
+			EllipticalOrbit {
+				Epoch 2453152.712
+				Period<d> 3.1494
+				SemiMajorAxis 0.028459
+				Eccentricity 0
+				MeanAnomaly 141.9
+			}
+		}
+		# 2014 3-planet model 2014Sci...345..440R
+		{
+			Ending "2017 10 04"
+			Mass 1.7
+			EllipticalOrbit {
+				Epoch 2454752.33
+				Period<d> 3.1490
+				SemiMajorAxis 0.02815
+				Eccentricity 0.0
+			}
+		}
+		# 2017 3-planet model 2018A&A...609A.117T
+		{
+			Mass 1.657
+			EllipticalOrbit {
+				Epoch 2451409.762
+				Period<d> 3.153
+				SemiMajorAxis 0.029
+				Eccentricity 0.125
+				ArgOfPericenter 216.92
+				MeanAnomaly 203.7
+			}
+		}
+	]
+}
+
+"Gliese 581 f:(disproven)" "Gliese 581"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	Mass 7.0
+	Radius 16216
+	Timeline [
+		# 2010 6-planet model 2010ApJ...723..954V
+		{
+			Beginning "2010 09 29"
+			Ending "2012 07 18"
+			Mass 7.0
+			EllipticalOrbit {
+				Epoch 2451409.762
+				Period<d> 433
+				SemiMajorAxis 0.758
+				Eccentricity 0
+				MeanAnomaly 118
+			}
+		}
+		# 2012 refuted 2013ApJ...764....3R
+	]
+}
+
+"Gliese 581 g:(disproven)" "Gliese 581"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	Mass 3.1
+	Radius 10037
+	Timeline [
+		# 2010 6-planet model 2010ApJ...723..954V
+		{
+			Beginning "2010 09 29"
+			Ending "2012 07 18"
+			Mass 3.1
+			EllipticalOrbit {
+				Epoch 2451409.762
+				Period<d> 36.562
+				SemiMajorAxis 0.14601
+				Eccentricity 0
+				MeanAnomaly 271
+			}
+		}
+		# 2012 5-planet model 2012AN....333..561V
+		{
+			Ending "2014 07 03"
+			Mass 2.242
+			EllipticalOrbit {
+				Epoch 2453152.712
+				Period<d> 32.129
+				SemiMajorAxis 0.13386
+				Eccentricity 0
+				MeanAnomaly 55.3
+			}
+		}
+		# 2014 refuted 2014Sci...345..440R
+	]
+}
